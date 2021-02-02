@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script src="https://cdn.jsdelivr.net/npm/vue@2"></script>
+</head>
+<body>
+  <div id="app">
+    <slide-show
+      v-bind:slide-sourse="[
+      'http://newshop.kupikupi.org/alboms/3/195/00002.jpeg',
+      'http://newshop.kupikupi.org/alboms/3/193/00006.jpeg',
+      'http://newshop.kupikupi.org/alboms/3/140/60-375.jpeg'
+      ]"
+      slide-interval=2000
+      ></slide-show>
+  </div>
+</body>
+<script src="script.js"></script>
+</html>
+
